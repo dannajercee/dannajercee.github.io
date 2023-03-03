@@ -49,6 +49,7 @@ a:focus{
 	color: #fff;
 }
 
+
 .preloader{
 	position: fixed;
 	top: 0;
@@ -93,7 +94,7 @@ a:focus{
     width: 30px;
     height: 30px;
     border-radius: 2px;
-    background: #ff5d56;
+    background: #b494b8;
     -webkit-transform: translateY(0) rotate(45deg) scale(0);
     transform: translateY(0) rotate(45deg) scale(0);
     -webkit-animation: diamonds 1500ms linear infinite;
@@ -1167,11 +1168,11 @@ header .navbar.sticky-header{
 
 .newsletter-form .form-inline{
 	max-width: 568px;
-	background: #222;
+	background: #B494B8;
 	padding: 10px;
 	margin: 0 auto;
 	border-radius: 50px;
-	border: 1px solid #333;
+	border: 1px solid #b494b8;
 }
 
 .newsletter-form .form-group{
@@ -1339,35 +1340,39 @@ header .navbar.sticky-header{
 
 .contactus{
 	padding: 100px 0;
+	background-color: white !important;
 }
 
 .contact-form .form-control{
-	background: #222;
+	background: #EAE1EB;
 	border: none;
 	border-radius: 0;
 	height: auto;
 	padding: 14px 20px;
-	border: 1px solid #333;
+	border: 1px solid #EAE1EB;
 	margin-bottom: 10px;
 	resize: none;
 	outline: 0;
 	box-shadow: none;
-	color: #fff;
+	color: #707070;
+	border-radius: 10px;
+	
 }
 
 .btn-contact{
 	background: none;
 	display: inline-block;
-    border: 1px solid #ff5d56;
-    color: #ff5d56;
+    border: 2px solid #B494B8;
+    color: #B494B8;
     padding: 12px 30px;
 	cursor: pointer;
 	margin-top: 20px;
     transition: all 0.4s;
+	border-radius: 10px;
 }
 
 .btn-contact:hover{
-	background: #ff5d56;
+	background: #b494b8;
 	color: #fff;
 }
 
@@ -1395,8 +1400,8 @@ header .navbar.sticky-header{
     left: -1px;
     right: -1px;
     bottom: -1px;
-    border-top: 1px solid #ff5d56;
-    border-bottom: 1px solid #ff5d56;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #b494b8;
     transform: scale(0,1);
     transition: all 0.6s;
 }
@@ -1409,8 +1414,8 @@ header .navbar.sticky-header{
     left: -1px;
     right: -1px;
     bottom: -1px;
-    border-left: 1px solid #ff5d56;
-    border-right: 1px solid #ff5d56;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #B494B8;
     transform: scale(1,0);
     transition: all 0.6s;
 }
@@ -1436,7 +1441,7 @@ header .navbar.sticky-header{
 	width: 40px;
 	margin-left: -20px;
 	height: 3px;
-	background: #ff5d56;
+	background: #B494B8;
 	position: absolute;
 	left: 50%;
 	bottom: 0;
@@ -1504,8 +1509,8 @@ header .navbar.sticky-header{
 
 .footer-social a:hover{
 	background: none;
-	border-color: #ff5d56;
-	color: #ff5d56;
+	border-color: #b494b8;
+	color: #B494B8;
 }
 
 .footer-copyright{
@@ -1671,6 +1676,7 @@ header .navbar.sticky-header{
 	}
 	
 	.experience-single{
+		min-height: 540px;
 		padding: 20px;
 	}
 	
@@ -1755,3 +1761,4 @@ header .navbar.sticky-header{
 		margin-top: 0;
 	}
 }
+
