@@ -76,6 +76,10 @@ a:focus{
 	text-align: justify;
 }
 
+.h44{
+	color: #b494b8;
+}
+
 .logox
 {
 	max-width: 150px;
@@ -540,15 +544,17 @@ header .navbar.sticky-header{
 	padding: 100px 0 70px;
 }
 
+
 .sub-title{
 	display: inline-block;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 400;
-	background: #ff5d56;
+	background: #B494B8;
 	padding: 14px 20px;
 	text-transform: uppercase;
 	margin-bottom: 50px;
+	border-radius: 10px;
 }
 
 .sub-title i{
@@ -557,10 +563,11 @@ header .navbar.sticky-header{
 }
 
 .experience-single{
-	background: #222;
+	background: white;
 	padding: 40px 30px;
 	margin-top: 30px;
 	position: relative;
+	border-radius: 10px;
 }
 
 .experience-single:before{
@@ -568,7 +575,7 @@ header .navbar.sticky-header{
 	display: block;
 	width: 0;
 	height: 0;
-	border-bottom: 30px solid #222;
+	border-bottom: 30px solid #ffffff;
 	border-right: 30px solid transparent;
 	position: absolute;
 	top: -30px;
@@ -602,7 +609,7 @@ header .navbar.sticky-header{
 .education-pagination .swiper-pagination-bullet{
 	width: 12px;
 	height: 12px;
-	border: 2px solid #222;
+	border: 2px solid #707070;
 	opacity: 1;
 	background: none;
 	transition: all 0.4s;
@@ -610,7 +617,8 @@ header .navbar.sticky-header{
 
 .education-pagination .swiper-pagination-bullet-active,
 .experience-pagination .swiper-pagination-bullet-active{
-	border-color: #ff5d56;
+	border-color: #977c9a;
+	background-color: #977c9a;
 }
 
 .skill-single{
@@ -670,7 +678,7 @@ header .navbar.sticky-header{
 /***************************************/
 
 .portfolio{
-	background: #151515;
+	background: #ffffff;
 	padding: 100px 0;
 }
 
