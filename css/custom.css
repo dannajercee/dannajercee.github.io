@@ -478,6 +478,7 @@ header .navbar.sticky-header{
 	border: 1px solid #333;
 	margin-bottom: 30px;
 	position: relative;
+	min-height: 570px;
 }
 
 .service-single:before{
