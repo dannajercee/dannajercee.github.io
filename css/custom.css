@@ -223,7 +223,7 @@ header .navbar-collapse.collapse{
 
 .navbar .navbar-nav .nav-link.active{
 	background: none;
-	color: #B494B8;
+	color: #F6C382;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -336,16 +336,17 @@ header .navbar.sticky-header{
 
 .btn-download{
 	display: inline-block;
-	border: 2px solid #b494b8;
+	border: 2px solid #FFEFCD;
 	padding: 14px 30px;
 	border-radius: 4px;
-	color: #b494b8;
+	color: #DCAD5E;
 	transition: all 0.3s;
 }
 
 .btn-download:hover{
-	border-color: #707070;
-	color: #707070;
+	border-color: #DCAD5E;
+	color: #fff;
+	background-color: #DCAD5E;
 }
 
 /**************************************/
@@ -1219,8 +1220,8 @@ header .navbar.sticky-header{
 }
 
 .blog-single{
-	background: #222;
-	border: 1px solid #333;
+	background: #FFEFCD;
+
 }
 
 .blog-header{
@@ -1273,7 +1274,7 @@ header .navbar.sticky-header{
 }
 
 .blog-header figure img{
-	filter: grayscale(100%);
+
 }
 
 .blog-single .blog-body{
