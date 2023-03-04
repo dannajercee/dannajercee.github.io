@@ -499,8 +499,8 @@ header .navbar.sticky-header{
 	left: -1px;
 	right: -1px;
 	bottom: -1px;
-	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #b494b8;
+	border-top: 1px solid #F6C382;
+	border-bottom: 1px solid #F6C382;
 	transform: scale(0,1);
 	transition: all 0.6s;
 }
@@ -513,8 +513,8 @@ header .navbar.sticky-header{
 	left: -1px;
 	right: -1px;
 	bottom: -1px;
-	border-left: 1px solid #ffffff;
-	border-right: 1px solid #b494b8;
+	border-left: 1px solid #F6C382;
+	border-right: 1px solid #F6C382;
 	transform: scale(1,0);
 	transition: all 0.6s;
 }
@@ -553,10 +553,10 @@ header .navbar.sticky-header{
 
 .sub-title{
 	display: inline-block;
-	color: #fff;
+	color: #b494b8;
 	font-size: 18px;
 	font-weight: 400;
-	background: #B494B8;
+	background: #FFEFCD;
 	padding: 14px 20px;
 	text-transform: uppercase;
 	margin-bottom: 50px;
@@ -565,7 +565,7 @@ header .navbar.sticky-header{
 
 .sub-title i{
 	margin-right: 10px;
-	color: #fff;
+	color: #b494b8;
 }
 
 .experience-single{
@@ -1405,8 +1405,8 @@ header .navbar.sticky-header{
     left: -1px;
     right: -1px;
     bottom: -1px;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #b494b8;
+    border-top: 1px solid #F6C382;
+    border-bottom: 1px solid #F6C382;
     transform: scale(0,1);
     transition: all 0.6s;
 }
@@ -1419,8 +1419,8 @@ header .navbar.sticky-header{
     left: -1px;
     right: -1px;
     bottom: -1px;
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #B494B8;
+    border-left: 1px solid #F6C382;
+    border-right: 1px solid #F6C382;
     transform: scale(1,0);
     transition: all 0.6s;
 }
